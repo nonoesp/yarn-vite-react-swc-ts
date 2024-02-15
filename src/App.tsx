@@ -7,7 +7,10 @@ function App() {
     return (
         <>
             <div>
-                <a href='https://react.dev' target='_blank'>
+                <a
+                    href='https://youtube.com/NonoMartinezAlonso'
+                    target='_blank'
+                >
                     <img
                         src={`https://nono.ma/img/u/profile-nono-ma.jpg`}
                         className='logo'
@@ -19,7 +22,7 @@ function App() {
                 <button onClick={() => setCount((count) => count + 1)}>
                     {count} {count === 1 ? `click` : `clicks`}
                 </button>
-                <p>Nono Martínez Alonso</p>
+                <p>A thing by Nono Martínez Alonso.</p>
             </div>
             <p className='read-the-docs'>
                 Built during{" "}
